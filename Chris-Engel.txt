@@ -1,0 +1,105 @@
+https://codepen.io/Dazmen/pen/zYYEqZr?editors=1100
+
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        -Semantic HTML is providing a standardized meaning to code.
+    2. What is HTML used for? 
+        -HTML is a coding language used to communicated with web browsers. It is the foundation of every single website.
+    3. What is an attribute and where do we put it? 
+        -An attribute is something that that provides more information or context to an element. It always follows the element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        -The h1 tag is for the most important thing on a page. It should generally only be used once on a page.
+    5. Name two tags that have required attributes
+        -<a href=> and <img src=>
+    6. What do we put in the head of our HTML document? 
+        -The head can contain things like links to CSS for styling or metadata
+    7. What is an id? 
+        -an id is an attribute that gives an element a unique form of identification. It ranks high on the scale of specificity.
+    8. What elements can I add an id to? 
+        -I believe that the id attribute can be added to any element.
+    9. How many times can I use the same id on a page? 
+        -A specific id can only be used on one element on a page.
+    10. What is a class? 
+        -A class is another attribute that can be used for more than one element and thus ranks lower on the scale of specificity.
+    11. What elements can I add a class to? 
+        -I believe that the class attribute can be applied to any element.
+    12. How many times can I use the same class on a page? 
+        -Unlike the id attribute, the same class attribute can be applied repeatedly.
+    13. How do I get my link to open in a new tab?
+        -By adding target="_blank" to <a href> ex.) <a href="https://google.com" target="_blank"
+    14. What is the alt attribute used for? 
+        -The alt attribute is used to provide alternate data in case of things like the user using a screen reader or a link/image won't load.
+    15. How do I reference an id?
+        -#
+    16. What is the difference between a section and a div
+        -a section is semantic HTML, it provides meaning to the sections grouped under it. The div is non-semantic, it is used for styling purposes but does not provide meaning on its own.
+    17. What is CSS used for? 
+        -CSS is used to style a website to provide aesthetics and to help make a page easier to view and navigate.
+    18. How to we select an element? Example - every h2 on the page
+        - h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        -the same class can be applied to multiple elements while an ID can only be applied to one. An id supercedes class in the scale of specificity. 
+        -An example could be that you have multiple elements styled the same under the class attribute. Adding the id attribute to an element could allow you to overwrite a styling aspect for that element only(like a different font-size/background-color)
+    20. How do we select classes in CSS?
+        - .{}
+    21. How do we select a p element with a single class of “human””?
+        - .human p{}
+    22. What is a parent child selector? When would this be useful? 
+        -Styling from CSS can cascade from parent element to the child elements. An example would be multiple <p> elements withing a div. The div could have a class that has the styling of color:red; That styling would also be applied to the <p> elements
+        -The parent child selector allows you to add additional specificity. Question 21 is an example of a parent child selector.
+    23. How do you select all links within a div with the class of sidebar?
+        - .sidebar a {}
+    24. What is a pseudo selector?
+        -A pseudo selector is a selector that affects an element in a certain state. Like last-child will affect the last element, whatever it may be an regardless if the last element changes.
+    25. What do we use the change the spacing between lines?
+        -line-height:
+    26. What do we use to change the spacing between letters?
+        -letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+        -text-transformation:
+    28. How do I add a 1px border around my div that is dotted and black?
+        - border: 1px dotted black;
+    29. How do I select everything on the page? 
+        -cntrl+a
+    30. How do I write a comment in CSS?
+        - /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+        -git status
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        -ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        -Files deleted via command line are permenantly removed. 
+    34. Why should I use version control? 
+        -In case of errors, being able to access prior versions of code before a mistake or an error took place. It also allows multiple people to work on a project much easier, and a generally smoother development.
+    35. How often should I commit to github?
+        -approximately ~20min, whenever a notable change is done.
+    36. What is the command we would use to push our repo up to github?
+        -git push 
+    37. Walk me through Lambda's git flow. 
+        -fork
+        -add TL as colaborator
+        -clone my repo
+        -create a branch
+        -push
+        -Pull request/add my TL as a reviewer on the Pull Request
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        -the difference is best explained by their names. block elements will start on a new line, breaking the flow of the content while inline only take up the space that is uses.
+    2. What happens when an element is positioned absolutely? 
+        -it is cemented at a starting point. An example of things with an absolute position would be a sidebar.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        -
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        - Block: <p> <h1-6> <div>
+        -Inline: <span> <a href>
+        -Inline-block: <img>
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
+
+
+   --> 
